@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new("> 1.3.1") if s.respond_to? :required_rubygems_version=
   s.authors = ["Bruno Bornsztein"]
-  s.date = %q{2011-05-07}
+  s.date = %q{2011-07-01}
   s.email = %q{admin@curbly.com}
   s.extra_rdoc_files = [
     "LICENSE",
@@ -17,6 +17,7 @@ Gem::Specification.new do |s|
   ]
   s.files = [
     ".gitmodules",
+    ".travis.yml",
     "CHANGELOG",
     "Gemfile",
     "LICENSE",
@@ -879,6 +880,7 @@ Gem::Specification.new do |s|
     "test/testapp/config/routes.rb",
     "test/testapp/db/schema.rb",
     "test/testapp/db/seeds.rb",
+    "test/testapp/db/test.sqlite3",
     "test/testapp/doc/README_FOR_APP",
     "test/testapp/lib/tasks/.gitkeep",
     "test/testapp/public/404.html",
@@ -1731,11 +1733,10 @@ Gem::Specification.new do |s|
     "vendor/plugins/white_list/test/white_list_test.rb"
   ]
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.3.7}
+  s.rubygems_version = %q{1.7.2}
   s.summary = %q{CommunityEngine for Rails 3}
 
   if s.respond_to? :specification_version then
-    current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
     s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
@@ -1756,8 +1757,12 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<jeweler>, [">= 0"])
       s.add_development_dependency(%q<sqlite3>, [">= 0"])
       s.add_development_dependency(%q<jeweler>, [">= 0"])
-      s.add_runtime_dependency(%q<rails>, ["= 3.1.0.beta1"])
-      s.add_runtime_dependency(%q<rack>, ["= 1.3.0.beta"])
+      s.add_development_dependency(%q<sqlite3>, [">= 0"])
+      s.add_development_dependency(%q<jeweler>, [">= 0"])
+      s.add_development_dependency(%q<sqlite3>, [">= 0"])
+      s.add_development_dependency(%q<jeweler>, [">= 0"])
+      s.add_runtime_dependency(%q<rails>, [">= 0"])
+      s.add_runtime_dependency(%q<rack>, [">= 0"])
       s.add_runtime_dependency(%q<arel>, ["~> 2.1.0"])
       s.add_runtime_dependency(%q<authlogic>, [">= 0"])
       s.add_runtime_dependency(%q<configatron>, [">= 0"])
@@ -1798,8 +1803,12 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<jeweler>, [">= 0"])
       s.add_dependency(%q<sqlite3>, [">= 0"])
       s.add_dependency(%q<jeweler>, [">= 0"])
-      s.add_dependency(%q<rails>, ["= 3.1.0.beta1"])
-      s.add_dependency(%q<rack>, ["= 1.3.0.beta"])
+      s.add_dependency(%q<sqlite3>, [">= 0"])
+      s.add_dependency(%q<jeweler>, [">= 0"])
+      s.add_dependency(%q<sqlite3>, [">= 0"])
+      s.add_dependency(%q<jeweler>, [">= 0"])
+      s.add_dependency(%q<rails>, [">= 0"])
+      s.add_dependency(%q<rack>, [">= 0"])
       s.add_dependency(%q<arel>, ["~> 2.1.0"])
       s.add_dependency(%q<authlogic>, [">= 0"])
       s.add_dependency(%q<configatron>, [">= 0"])
@@ -1841,8 +1850,12 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<jeweler>, [">= 0"])
     s.add_dependency(%q<sqlite3>, [">= 0"])
     s.add_dependency(%q<jeweler>, [">= 0"])
-    s.add_dependency(%q<rails>, ["= 3.1.0.beta1"])
-    s.add_dependency(%q<rack>, ["= 1.3.0.beta"])
+    s.add_dependency(%q<sqlite3>, [">= 0"])
+    s.add_dependency(%q<jeweler>, [">= 0"])
+    s.add_dependency(%q<sqlite3>, [">= 0"])
+    s.add_dependency(%q<jeweler>, [">= 0"])
+    s.add_dependency(%q<rails>, [">= 0"])
+    s.add_dependency(%q<rack>, [">= 0"])
     s.add_dependency(%q<arel>, ["~> 2.1.0"])
     s.add_dependency(%q<authlogic>, [">= 0"])
     s.add_dependency(%q<configatron>, [">= 0"])
