@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new("> 1.3.1") if s.respond_to? :required_rubygems_version=
   s.authors = ["Bruno Bornsztein"]
-  s.date = %q{2011-07-01}
+  s.date = %q{2011-08-15}
   s.email = %q{admin@curbly.com}
   s.extra_rdoc_files = [
     "LICENSE",
@@ -1733,7 +1733,7 @@ Gem::Specification.new do |s|
     "vendor/plugins/white_list/test/white_list_test.rb"
   ]
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.7.2}
+  s.rubygems_version = %q{1.6.2}
   s.summary = %q{CommunityEngine for Rails 3}
 
   if s.respond_to? :specification_version then
@@ -1761,6 +1761,9 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<jeweler>, [">= 0"])
       s.add_development_dependency(%q<sqlite3>, [">= 0"])
       s.add_development_dependency(%q<jeweler>, [">= 0"])
+      s.add_development_dependency(%q<sqlite3>, [">= 0"])
+      s.add_development_dependency(%q<jeweler>, [">= 0"])
+      s.add_development_dependency(%q<ruby-debug19>, [">= 0"])
       s.add_runtime_dependency(%q<rails>, [">= 0"])
       s.add_runtime_dependency(%q<rack>, [">= 0"])
       s.add_runtime_dependency(%q<arel>, ["~> 2.1.0"])
@@ -1783,7 +1786,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<omniauth>, ["~> 0.2.0.beta3"])
       s.add_runtime_dependency(%q<prototype-rails>, [">= 0"])
       s.add_runtime_dependency(%q<rails_autolink>, [">= 0"])
-      s.add_runtime_dependency(%q<meta_search>, ["= 1.1.0.pre"])
+      s.add_runtime_dependency(%q<meta_search>, ["= 1.1.0.pre2"])
       s.add_development_dependency(%q<sqlite3>, [">= 0"])
     else
       s.add_dependency(%q<community_engine>, [">= 0"])
@@ -1807,6 +1810,9 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<jeweler>, [">= 0"])
       s.add_dependency(%q<sqlite3>, [">= 0"])
       s.add_dependency(%q<jeweler>, [">= 0"])
+      s.add_dependency(%q<sqlite3>, [">= 0"])
+      s.add_dependency(%q<jeweler>, [">= 0"])
+      s.add_dependency(%q<ruby-debug19>, [">= 0"])
       s.add_dependency(%q<rails>, [">= 0"])
       s.add_dependency(%q<rack>, [">= 0"])
       s.add_dependency(%q<arel>, ["~> 2.1.0"])
@@ -1829,7 +1835,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<omniauth>, ["~> 0.2.0.beta3"])
       s.add_dependency(%q<prototype-rails>, [">= 0"])
       s.add_dependency(%q<rails_autolink>, [">= 0"])
-      s.add_dependency(%q<meta_search>, ["= 1.1.0.pre"])
+      s.add_dependency(%q<meta_search>, ["= 1.1.0.pre2"])
       s.add_dependency(%q<sqlite3>, [">= 0"])
     end
   else
@@ -1854,6 +1860,9 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<jeweler>, [">= 0"])
     s.add_dependency(%q<sqlite3>, [">= 0"])
     s.add_dependency(%q<jeweler>, [">= 0"])
+    s.add_dependency(%q<sqlite3>, [">= 0"])
+    s.add_dependency(%q<jeweler>, [">= 0"])
+    s.add_dependency(%q<ruby-debug19>, [">= 0"])
     s.add_dependency(%q<rails>, [">= 0"])
     s.add_dependency(%q<rack>, [">= 0"])
     s.add_dependency(%q<arel>, ["~> 2.1.0"])
@@ -1876,7 +1885,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<omniauth>, ["~> 0.2.0.beta3"])
     s.add_dependency(%q<prototype-rails>, [">= 0"])
     s.add_dependency(%q<rails_autolink>, [">= 0"])
-    s.add_dependency(%q<meta_search>, ["= 1.1.0.pre"])
+    s.add_dependency(%q<meta_search>, ["= 1.1.0.pre2"])
     s.add_dependency(%q<sqlite3>, [">= 0"])
   end
 end

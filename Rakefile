@@ -27,7 +27,6 @@ task :test do
 end
 
 namespace :test do
-
   Rake::TestTask.new(:functionals) do |t|
     t.libs << "lib"
     t.libs << "test"
@@ -76,7 +75,7 @@ begin
     gem.add_dependency 'omniauth', '~> 0.2.0.beta3'
     gem.add_dependency 'prototype-rails'
     gem.add_dependency 'rails_autolink'
-    gem.add_dependency 'meta_search', '1.1.0.pre'
+    gem.add_dependency 'meta_search', '1.1.0.pre2'
     gem.add_development_dependency 'sqlite3'
   end
 rescue
